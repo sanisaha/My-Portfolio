@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import car from '../../Assets/car-finder.png'
 import carry from '../../Assets/carryYoy.png'
 import dataSchool from '../../Assets/data-school.png'
@@ -14,7 +15,7 @@ const Projects = () => {
                     <h2 className="card-title text-3xl">Car-Finder</h2>
                     <p className='text-xl'>A second-hand car's marketplace</p>
                     <div className="card-actions justify-center">
-                        <button className="btn btn-primary">More Details</button>
+                        <Link to='/project1'><button className="btn btn-primary">More Details</button></Link>
                     </div>
                 </div>
             </div>

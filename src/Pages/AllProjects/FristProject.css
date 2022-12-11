@@ -1,0 +1,32 @@
+.container {
+    position: relative;
+
+}
+
+.container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.container:hover::before {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container img {
+    display: block;
+}
+
+.container button {
+    position: absolute;
+
+    opacity: 0;
+}
+
+.container:hover button {
+    color: whitesmoke;
+    opacity: 0.5;
+}
