@@ -20,13 +20,13 @@
     display: block;
 }
 
-.container button {
+.container a {
     position: absolute;
 
     opacity: 0;
 }
 
-.container:hover button {
+.container:hover a {
     color: whitesmoke;
     opacity: 0.5;
 }

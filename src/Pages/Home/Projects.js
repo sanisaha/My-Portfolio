@@ -27,7 +27,7 @@ const Projects = () => {
                     <h2 className="card-title text-3xl">CarryYou</h2>
                     <p className='text-xl'>A simple moving service provider</p>
                     <div className="card-actions justify-center">
-                        <button className="btn btn-primary">More Details</button>
+                        <Link to='/project2'><button className="btn btn-primary">More Details</button></Link>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@ const Projects = () => {
                     <h2 className="card-title text-3xl">DataSchooling</h2>
                     <p className='text-xl'>Online learning platform website</p>
                     <div className="card-actions justify-center">
-                        <button className="btn btn-primary">More Details</button>
+                        <Link to='/project3'><button className="btn btn-primary">More Details</button></Link>
                     </div>
                 </div>
             </div>
